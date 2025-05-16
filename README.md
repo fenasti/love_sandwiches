@@ -27,6 +27,40 @@ Connect your GitHub repository and deploy as normal.
 
 The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
 
----
 
-Happy coding!
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % git clone https://github.com/fenasti/love_sandwiches.git
+Cloning into 'love_sandwiches'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 15 (delta 0), reused 10 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (15/15), 5.21 KiB | 2.60 MiB/s, done.
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % python3 --version
+Python 3.9.6
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % python --version
+zsh: command not found: python
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % python3 --version
+Python 3.9.6
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % python3.12 --version
+Python 3.12.10
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % python3.12 -m venv venv
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % source venv/bin/activate
+((venv) ) felipenastloyola@Felipes-MacBook-Air love-sandwiches % python --version
+Python 3.12.10
+
+
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % python3.12 --version
+Python 3.12.10
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % python3.12 -m venv venv
+felipenastloyola@Felipes-MacBook-Air love-sandwiches % source venv/bin/activate
+((venv) ) felipenastloyola@Felipes-MacBook-Air love-sandwiches % python --version
+Python 3.12.10
+((venv) ) felipenastloyola@Felipes-MacBook-Air love-sandwiches % rm -rf /Users/felipenastloyola/love-sandwiches/venv 
+((venv) ) felipenastloyola@Felipes-MacBook-Air love-sandwiches % python3.12 -m venv venv
+((venv) ) felipenastloyola@Felipes-MacBook-Air love-sandwiches % python3 --version
+Python 3.12.10
+((venv) ) felipenastloyola@Felipes-MacBook-Air love-sandwiches % source venv/bin/activate
+((venv) ) felipenastloyola@Felipes-MacBook-Air love-sandwiches % pwd
+/Users/felipenastloyola/love-sandwiches
+
+
